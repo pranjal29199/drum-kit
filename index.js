@@ -9,7 +9,7 @@ for(var i=0; i<numberofDrumButtons; i++)
         buttonAnimation(buttoninnerHTML);
     });
 }
-
+// javascript of drum-kit
 document.addEventListener("keydown", function(event)
 {
    
@@ -22,7 +22,7 @@ function makeSound(key)
 {
     switch (key)
     {
-    
+    // switch function
     case "w":
         var tom1= new Audio("sounds/tom-1.mp3");
         tom1.play();
